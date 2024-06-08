@@ -1,0 +1,30 @@
+
+*{
+    font-family: sans-serif;
+}
+
+.dados{
+    display: flex;
+    max-width: 960px;
+    margin: 40px auto;
+    border: 1px solid white;
+    border-radius: 16px;
+    box-shadow: 8px 8px 40px #ddd;
+
+}
+.condicao , .local-atual{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fontLarga{
+    font-size: 30px;
+}
+.fontMedia{
+    font-size: 15px;
+}
+.hideLoad{
+    display: none;
+}
